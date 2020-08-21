@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+main {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    /* Header 200 */
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+h2 {
+    /* Header 100 */
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h3 {
+    /* Header 300 */
+    font-size: 24px;
+    line-height: 44px;
+}
+
+p {
+    /* Text */
+    font-size: 20px;
+    line-height: 40px;
+
+    & .project {
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+// /* Header 100 */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 48px;
+// line-height: 56px;
+
+// /* Mobile/Header 100 */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 36px;
+// line-height: 48px;
+
+
+// /* Header 200 */
+// 
+
+// /* Mobile/Header 200 */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 26px;
+// line-height: 32px;
+
+// /* Header 300 */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: bold;
+
+
+// /* Text */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: 300;
+// font-size: 20px;
+// line-height: 40px;
+
+
+// /* Mobile/Text */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: 300;
+// font-size: 16px;
+// line-height: 32px;
+
+
+// /* List */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: 600;
+// font-size: 16px;
+// line-height: 24px;
+
+
+// /* TextBold */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 20px;
+// line-height: 40px;
+
+
+
+// /* Mobile/TextBold */
+// font-family: Nunito;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 16px;
+// line-height: 32px;
+
+
+// /* Console */
+// font-family: Roboto Mono;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 16px;
+// line-height: 24px;
+
+
+// /* Mobile/Console */
+// font-family: Roboto Mono;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 13px;
+// line-height: 24px;
