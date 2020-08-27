@@ -2,6 +2,8 @@
 @import "_variables";
 @import "modules/hello.scss";
 @import "modules/fonts.scss";
+@import "modules/projects.scss";
+
 
 
 main {
@@ -9,5 +11,17 @@ main {
 
   &>section {
     min-height: 100vh;
+  }
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  &>* {
+    flex-basis: 300px;
+    flex-shrink: 1; // elements can shrink
+    flex-grow: 1; // if some of the element(s) are "pushed" into the next row, they grow to fit the size of the other columns
   }
 }
