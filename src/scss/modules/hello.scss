@@ -1,29 +1,50 @@
 .hello {
-  //position: absolute;
 
   &__graphics {
     display: flex;
-    //position: relative;
-
+    justify-content: center;
+    margin-top: 30px;
 
     &__photo {
-
+      position: relative;
       width: 178px;
-
       border: 24px solid $bluelightest;
       border-radius: 50%;
     }
 
     &__cloud {
-
+      position: absolute;
+      top: -2%;
+      right: 32%;
 
       &>p {
-        padding: 16px 19px;
+        padding: 8px 17px;
         border-radius: 16px;
         background-color: $blue;
         color: white;
       }
-
     }
   }
+
+  &__description {
+    display: grid;
+    text-align: center;
+    color: #234361;
+
+    &--text {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  &__mailto {
+    width: fit-content;
+    padding: 10px 15px;
+    justify-self: center;
+    border-radius: 64px;
+    background-color: $text-link;
+    color: white;
+    text-decoration: none;
+  }
+
 }
